@@ -24,7 +24,7 @@ export class CycleClass extends Statement<StatementType.Loop> {
       this.params.step || 1,
       '+',
       '=',
-      this.genLabel('Jump'),
+      this.genLabel('Condition'),
       CMD.JUMP,
       this.genLabel('Exit'),
       CMD.STEP_OUT,
